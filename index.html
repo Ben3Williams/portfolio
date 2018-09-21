@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <title>Ben Williams | Front End Web Developer</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__text-box">
+                <h1 class="heading-primary">Ben Williams
+                    <span class="heading-primary--sub">A web developer based in Leigh-on-Sea who swims, bikes and runs.</span>
+                </h1>
+            </div>
+        </header>
+        <main>
+            <section class="section-about">
+                <div class="row u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Development</h2>
+                    <p class="paragraph u-left-text">I build responsive websites that work on a variety of screens and devices. I currently work in house at <a href="//www.bt.com" class="btn-text">BT</a> and have been for the last 5 years, looking after a variety of websites across their consumer product portfolio. I work with HTML5/CSS3, SASS &amp; Javascript. I have a experience with popular frameworks like Bootstrap &amp; React, use Git daily and like to optimise an image or two.</p>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">You're going to fall in love with nature</h3>
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin, sapien gravida vulputate placerat, mauris purus ornare leo, quis rhoncus arcu ante pharetra libero.</p>
+                        <h3 class="heading-tertiary u-margin-bottom-small">Live adventures like you never have before</h3>
+                        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sollicitudin, sapien gravida vulputate placerat.</p>
+                        <a href="https://uk.linkedin.com/in/ben-williams-37659428" class="btn-text">View my LinkedIn profile &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <!-- Resolution switching - we allow the browser to select best image based on pixel density and screen width
+                                 We inform the browser of the images width so it doesn't need to download the image to find out
+                                 Sizes attribute to inform browser approx image width at different viewports, 
+                                 at 56.25em/900px image is 20% of viewport width, at 37.5em/600px image is 30% of viewport width-->
+                            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 1"
+                                 class="composition__photo composition__photo--p1"
+                                 src="img/nat-1-large.jpg"
+                            >
+                            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w" 
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 2"
+                                 class="composition__photo composition__photo--p2"
+                                 src="img/nat-2-large.jpg"
+                            >
+                            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                                 alt="Photo 3"
+                                 class="composition__photo composition__photo--p3"
+                                 src="img/nat-3-large.jpg"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-features">
+                <div class="row">
+                    <div class="col-1-of-5">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-world"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Code</h3>
+                            <p class="feature-box__text">HTML5, CSS3, SASS with BEM, LESS, JSON</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-5">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-compass"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Frameworks</h3>
+                            <p class="feature-box__text">React, Angular 1.x, Bootstrap, jQuery</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-5">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-map"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Tools</h3>
+                            <p class="feature-box__text">Github, GTMetrix, AWS, Jenkins, Webpack, Gulp, Adobe Target</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-5">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">CMS</h3>
+                            <p class="feature-box__text">Interwoven, Sitecore, Oracle WebCenter, Alterian Content Manager</p>
+                        </div>
+                    </div>
+                    <div class="col-1-of-5">
+                        <div class="feature-box">
+                            <i class="feature-box__icon icon-basic-heart"></i>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Other</h3>
+                            <p class="feature-box__text">Photoshop, SEO, Accessibility, Site Performance, Jira &amp; Confluence Admin</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-tours" id="section-tours">
+                <div class="row u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Triathlon</h2>
+                    <p class="paragraph u-left-text">I completed my first super sprint triathlon at Blenheim Palace back in 2015 and was immediately hooked. Since then, I have slowly increased the distances at which I compete and in 2018, I completed my first olympic distance at the London Triathlon in 30&deg; heat! In 2017, I joined my local triathlon club <a href="https://www.jbrtriclub.com/" class="btn-text">JBR Run &amp; Tri</a> and it has completly changed my life not only in the way I train but also think about what my body can do.</p>
+
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--1">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--1">Blenheim Palace</span>
+                                </h4>
+                                <div class="card__details">
+                                   <ul>
+                                       <li>Sprint distance</li>
+                                       <li>750m Swim</li>
+                                       <li>20km Bike</li>
+                                       <li>5.2km Run</li>
+                                   </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-1">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Finish time</p>
+                                        <p class="card__price-value">2:11:59</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--2">Southend</span>
+                                </h4>
+                                <div class="card__details">
+                                   <ul>
+                                        <li>Sprint distance</li>
+                                        <li>750m Swim</li>
+                                        <li>20km Bike</li>
+                                        <li>5.6km Run</li>
+                                   </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Finish time</p>
+                                        <p class="card__price-value">2:00:17</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1-of-3">
+                        <div class="card">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
+                                    &nbsp;
+                                </div>
+                                <h4 class="card__heading">
+                                    <span class="card__heading-span card__heading-span--3">London</span>
+                                </h4>
+                                <div class="card__details">
+                                   <ul>
+                                        <li>Olympic distance</li>
+                                        <li>1.5km Swim</li>
+                                        <li>40km Bike</li>
+                                        <li>10km Run</li>
+                                   </ul>
+                                </div>
+                            </div>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price-box">
+                                        <p class="card__price-only">Finish time</p>
+                                        <p class="card__price-value">3:53:34</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <picture class="footer__logo">
+                    <!-- Art direction - When screen width is lower than 600px, use the small image -->
+                    <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+                            media="(max-width: 37.5em)">
+                    <!-- Density switching will choose a different image based on pixel density. The browser will choose which is best. -->
+                    <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+                         alt="Full logo"
+                         class="footer__logo"
+                         src="img/logo-green-1x.png">
+                </picture>
+            </div>
+            <div class="row">
+                <div class="footer__navigation u-center-text">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://uk.linkedin.com/in/ben-williams-37659428" class="footer__link">LinkedIn</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="mailto:ldn.skier@gmail.com" class="footer__link">Email</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://twitter.com/London_Skier" class="footer__link">Twitter</a>
+                        </li>
+                    </ul>
+                    <p class="footer__copyright">
+                        All coding has been completed by Ben Williams however this site's design is heavily influenced by <a href="https://twitter.com/jonasschmedtman"
+                            class="footer__link">Jonas Schmedtmann</a>'s fantastic online course <a href="https://www.udemy.com/advanced-css-and-sass/"
+                            class="footer__link">Advanced CSS and Sass</a>.
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Email</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="https://uk.linkedin.com/in/ben-williams-37659428" class="navigation__link">LinkedIn</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="https://twitter.com/London_Skier" class="navigation__link">Twitter</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Stories</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="" class="navigation__link">Book now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
