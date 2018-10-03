@@ -876,23 +876,13 @@ body {
 
 .footer {
   background: #333;
-  padding: 10rem 0;
-  font-size: 1.4rem;
+  padding: 3rem 0;
+  font-size: 1.3rem;
   color: #eff0f4; }
   @media only screen and (max-width: 56.25em) {
     .footer {
       padding: 8rem 0; } }
-  .footer__logo-box {
-    text-align: center;
-    margin-bottom: 8rem; }
-    @media only screen and (max-width: 56.25em) {
-      .footer__logo-box {
-        margin-bottom: 6rem; } }
-  .footer__logo {
-    width: 15rem;
-    height: auto; }
   .footer__navigation {
-    border-top: 2px solid #777;
     padding-top: 2rem; }
     @media only screen and (max-width: 56.25em) {
       .footer__navigation {
