@@ -16,7 +16,7 @@
   "author": "Ben Williams",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
+    "autoprefixer": "^9.6.0",
     "concat": "^1.0.3",
     "live-server": "^1.2.1",
     "node-sass": "^4.9.0",
